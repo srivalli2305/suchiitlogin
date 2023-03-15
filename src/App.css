@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(19, 18, 18);
 }
 
 .App-link {
@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5bb5dc;
+}
+
+li {
+  float: left;
+  font-size: 25px;
+}
+img{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #d5e7ab;
+}
+
